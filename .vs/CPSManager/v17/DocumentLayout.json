@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|c:\\users\\carpark\\source\\repos\\cpsmanager\\cpsmanager\\controls\\mytexteditonlynumaric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|solutionrelative:cpsmanager\\controls\\mytexteditonlynumaric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|c:\\users\\carpark\\source\\repos\\cpsmanager\\cpsmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|solutionrelative:cpsmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|solutionrelative:cpsmanager\\controls\\mytextedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|c:\\users\\carpark\\source\\repos\\cpsmanager\\cpsmanager\\controls\\customgridcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|C:\\Users\\Carpark\\source\\repos\\CPSManager\\cpsmanager\\controls\\customgridcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|solutionrelative:cpsmanager\\controls\\customgridcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "MyTextEditOnlyNumaric.cs",
+              "DocumentMoniker": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\CPSManager\\Controls\\MyTextEditOnlyNumaric.cs",
+              "RelativeDocumentMoniker": "CPSManager\\Controls\\MyTextEditOnlyNumaric.cs",
+              "ToolTip": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\CPSManager\\Controls\\MyTextEditOnlyNumaric.cs",
+              "RelativeToolTip": "CPSManager\\Controls\\MyTextEditOnlyNumaric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T19:06:56.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CustomGridControl.cs",
               "DocumentMoniker": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\CPSManager\\Controls\\CustomGridControl.cs",
               "RelativeDocumentMoniker": "CPSManager\\Controls\\CustomGridControl.cs",
@@ -54,12 +71,11 @@
               "RelativeToolTip": "CPSManager\\Controls\\CustomGridControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T18:51:25.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T18:51:25.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MyTextEdit.cs",
               "DocumentMoniker": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\CPSManager\\Controls\\MyTextEdit.cs",
               "RelativeDocumentMoniker": "CPSManager\\Controls\\MyTextEdit.cs",
@@ -67,12 +83,11 @@
               "RelativeToolTip": "CPSManager\\Controls\\MyTextEdit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T18:10:10.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T18:10:10.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\CPSManager\\MainForm.cs",
               "RelativeDocumentMoniker": "CPSManager\\MainForm.cs",

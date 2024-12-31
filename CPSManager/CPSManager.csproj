@@ -73,6 +73,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\MyTextEditOnlyNumaric.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MyTextEditSadeceBuyukHarf.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\CustomGridControl.cs">
       <SubType>Component</SubType>
     </Compile>
