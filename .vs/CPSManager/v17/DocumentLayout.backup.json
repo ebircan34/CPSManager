@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|c:\\users\\carpark\\source\\repos\\cpsmanager\\cpsmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|solutionrelative:cpsmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|c:\\users\\carpark\\source\\repos\\cpsmanager\\cpsmanager\\controls\\mytextedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94FDCAFA-E91D-44C0-A21D-6B244B61B368}|CPSManager\\CPSManager.csproj|solutionrelative:cpsmanager\\controls\\mytextedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyTextEdit.cs",
+              "DocumentMoniker": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\CPSManager\\Controls\\MyTextEdit.cs",
+              "RelativeDocumentMoniker": "CPSManager\\Controls\\MyTextEdit.cs",
+              "ToolTip": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\CPSManager\\Controls\\MyTextEdit.cs",
+              "RelativeToolTip": "CPSManager\\Controls\\MyTextEdit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T18:10:10.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\CPSManager\\MainForm.cs",
+              "RelativeDocumentMoniker": "CPSManager\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Carpark\\source\\repos\\CPSManager\\CPSManager\\MainForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "CPSManager\\MainForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T18:06:07.913Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
