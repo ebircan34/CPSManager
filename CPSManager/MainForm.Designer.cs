@@ -42,11 +42,38 @@
             this.mainRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.mainRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
+            this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
+            this.label10 = new System.Windows.Forms.Label();
+            this.myTextEdit5 = new CPManagementApp.UserControls.Controls.MyTextEdit();
+            this.myTextEdit9 = new CPManagementApp.UserControls.Controls.MyTextEdit();
+            this.myTextEdit10 = new CPManagementApp.UserControls.Controls.MyTextEdit();
+            this.myCalcEdit5 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
+            this.myCalcEdit9 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
+            this.myCalcEdit10 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.myTextEdit6 = new CPManagementApp.UserControls.Controls.MyTextEdit();
+            this.myTextEdit7 = new CPManagementApp.UserControls.Controls.MyTextEdit();
+            this.myTextEdit8 = new CPManagementApp.UserControls.Controls.MyTextEdit();
+            this.myCalcEdit6 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
+            this.myCalcEdit7 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
+            this.myCalcEdit8 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.myTextEdit4 = new CPManagementApp.UserControls.Controls.MyTextEdit();
+            this.myTextEdit3 = new CPManagementApp.UserControls.Controls.MyTextEdit();
+            this.myTextEdit2 = new CPManagementApp.UserControls.Controls.MyTextEdit();
+            this.myTextEdit1 = new CPManagementApp.UserControls.Controls.MyTextEdit();
             this.myCalcEdit4 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
             this.myCalcEdit3 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
             this.myCalcEdit2 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
             this.myCalcEdit1 = new CPManagementApp.UserControls.Controls.MyCalcEdit();
+            this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
@@ -54,14 +81,8 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.myTextEdit1 = new CPManagementApp.UserControls.Controls.MyTextEdit();
-            this.myTextEdit2 = new CPManagementApp.UserControls.Controls.MyTextEdit();
-            this.myTextEdit3 = new CPManagementApp.UserControls.Controls.MyTextEdit();
-            this.myTextEdit4 = new CPManagementApp.UserControls.Controls.MyTextEdit();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.customGridControl1 = new CustomGridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.mainRibbonControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel1)).BeginInit();
@@ -69,20 +90,40 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel2)).BeginInit();
             this.splitContainerControl1.Panel2.SuspendLayout();
             this.splitContainerControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
+            this.groupControl5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit9.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit10.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit9.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit10.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit7.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit8.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit7.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit8.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
+            this.groupControl6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customGridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // mainRibbonControl
@@ -115,7 +156,7 @@
             this.mainRibbonControl.ShowPageHeadersMode = DevExpress.XtraBars.Ribbon.ShowPageHeadersMode.Hide;
             this.mainRibbonControl.ShowQatLocationSelector = false;
             this.mainRibbonControl.ShowToolbarCustomizeItem = false;
-            this.mainRibbonControl.Size = new System.Drawing.Size(1062, 158);
+            this.mainRibbonControl.Size = new System.Drawing.Size(978, 158);
             this.mainRibbonControl.Toolbar.ShowCustomizeItem = false;
             this.mainRibbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             // 
@@ -230,7 +271,6 @@
             // 
             this.splitContainerControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerControl1.IsSplitterFixed = true;
             this.splitContainerControl1.Location = new System.Drawing.Point(0, 158);
             this.splitContainerControl1.Margin = new System.Windows.Forms.Padding(1);
             this.splitContainerControl1.Name = "splitContainerControl1";
@@ -238,17 +278,274 @@
             // splitContainerControl1.Panel1
             // 
             this.splitContainerControl1.Panel1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.splitContainerControl1.Panel1.Controls.Add(this.groupControl5);
+            this.splitContainerControl1.Panel1.Controls.Add(this.groupControl2);
             this.splitContainerControl1.Panel1.Controls.Add(this.groupControl1);
             this.splitContainerControl1.Panel1.Text = "Panel1";
             // 
             // splitContainerControl1.Panel2
             // 
+            this.splitContainerControl1.Panel2.Controls.Add(this.groupControl6);
             this.splitContainerControl1.Panel2.Controls.Add(this.groupControl4);
             this.splitContainerControl1.Panel2.Controls.Add(this.groupControl3);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1062, 619);
-            this.splitContainerControl1.SplitterPosition = 329;
+            this.splitContainerControl1.Size = new System.Drawing.Size(978, 619);
+            this.splitContainerControl1.SplitterPosition = 285;
             this.splitContainerControl1.TabIndex = 4;
+            // 
+            // groupControl5
+            // 
+            this.groupControl5.Controls.Add(this.label10);
+            this.groupControl5.Controls.Add(this.myTextEdit5);
+            this.groupControl5.Controls.Add(this.myTextEdit9);
+            this.groupControl5.Controls.Add(this.myTextEdit10);
+            this.groupControl5.Controls.Add(this.myCalcEdit5);
+            this.groupControl5.Controls.Add(this.myCalcEdit9);
+            this.groupControl5.Controls.Add(this.myCalcEdit10);
+            this.groupControl5.Location = new System.Drawing.Point(10, 392);
+            this.groupControl5.Name = "groupControl5";
+            this.groupControl5.Size = new System.Drawing.Size(255, 211);
+            this.groupControl5.TabIndex = 2;
+            this.groupControl5.Text = "Fatura";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(23, 51);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(45, 14);
+            this.label10.TabIndex = 5;
+            this.label10.Text = "Fatura:";
+            // 
+            // myTextEdit5
+            // 
+            this.myTextEdit5.EnterMoveNextControl = true;
+            this.myTextEdit5.Location = new System.Drawing.Point(95, 107);
+            this.myTextEdit5.Name = "myTextEdit5";
+            this.myTextEdit5.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit5.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit5.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit5.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit5.Properties.MaxLength = 50;
+            this.myTextEdit5.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit5.TabIndex = 4;
+            // 
+            // myTextEdit9
+            // 
+            this.myTextEdit9.EnterMoveNextControl = true;
+            this.myTextEdit9.Location = new System.Drawing.Point(95, 76);
+            this.myTextEdit9.Name = "myTextEdit9";
+            this.myTextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit9.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit9.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit9.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit9.Properties.MaxLength = 50;
+            this.myTextEdit9.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit9.TabIndex = 4;
+            // 
+            // myTextEdit10
+            // 
+            this.myTextEdit10.EnterMoveNextControl = true;
+            this.myTextEdit10.Location = new System.Drawing.Point(95, 45);
+            this.myTextEdit10.MenuManager = this.mainRibbonControl;
+            this.myTextEdit10.Name = "myTextEdit10";
+            this.myTextEdit10.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit10.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit10.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit10.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit10.Properties.MaxLength = 50;
+            this.myTextEdit10.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit10.TabIndex = 4;
+            // 
+            // myCalcEdit5
+            // 
+            this.myCalcEdit5.EnterMoveNextControl = true;
+            this.myCalcEdit5.Location = new System.Drawing.Point(150, 107);
+            this.myCalcEdit5.MenuManager = this.mainRibbonControl;
+            this.myCalcEdit5.Name = "myCalcEdit5";
+            this.myCalcEdit5.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.myCalcEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.myCalcEdit5.Properties.Appearance.Options.UseFont = true;
+            this.myCalcEdit5.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myCalcEdit5.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myCalcEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.myCalcEdit5.Properties.MaskSettings.Set("mask", "n2");
+            this.myCalcEdit5.Size = new System.Drawing.Size(82, 20);
+            this.myCalcEdit5.TabIndex = 2;
+            // 
+            // myCalcEdit9
+            // 
+            this.myCalcEdit9.EnterMoveNextControl = true;
+            this.myCalcEdit9.Location = new System.Drawing.Point(150, 76);
+            this.myCalcEdit9.MenuManager = this.mainRibbonControl;
+            this.myCalcEdit9.Name = "myCalcEdit9";
+            this.myCalcEdit9.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.myCalcEdit9.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.myCalcEdit9.Properties.Appearance.Options.UseFont = true;
+            this.myCalcEdit9.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myCalcEdit9.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myCalcEdit9.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.myCalcEdit9.Properties.MaskSettings.Set("mask", "n2");
+            this.myCalcEdit9.Size = new System.Drawing.Size(82, 20);
+            this.myCalcEdit9.TabIndex = 1;
+            // 
+            // myCalcEdit10
+            // 
+            this.myCalcEdit10.EnterMoveNextControl = true;
+            this.myCalcEdit10.Location = new System.Drawing.Point(150, 45);
+            this.myCalcEdit10.MenuManager = this.mainRibbonControl;
+            this.myCalcEdit10.Name = "myCalcEdit10";
+            this.myCalcEdit10.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.myCalcEdit10.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.myCalcEdit10.Properties.Appearance.Options.UseFont = true;
+            this.myCalcEdit10.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myCalcEdit10.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myCalcEdit10.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.myCalcEdit10.Properties.MaskSettings.Set("mask", "n2");
+            this.myCalcEdit10.Size = new System.Drawing.Size(82, 20);
+            this.myCalcEdit10.TabIndex = 0;
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Controls.Add(this.label6);
+            this.groupControl2.Controls.Add(this.label7);
+            this.groupControl2.Controls.Add(this.label8);
+            this.groupControl2.Controls.Add(this.myTextEdit6);
+            this.groupControl2.Controls.Add(this.myTextEdit7);
+            this.groupControl2.Controls.Add(this.myTextEdit8);
+            this.groupControl2.Controls.Add(this.myCalcEdit6);
+            this.groupControl2.Controls.Add(this.myCalcEdit7);
+            this.groupControl2.Controls.Add(this.myCalcEdit8);
+            this.groupControl2.Location = new System.Drawing.Point(10, 219);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(255, 152);
+            this.groupControl2.TabIndex = 1;
+            this.groupControl2.Text = "Abone Geliri";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(18, 112);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 14);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Özel Satış:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(34, 81);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(47, 14);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Abone:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(21, 51);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(60, 14);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Congress:";
+            // 
+            // myTextEdit6
+            // 
+            this.myTextEdit6.EnterMoveNextControl = true;
+            this.myTextEdit6.Location = new System.Drawing.Point(95, 107);
+            this.myTextEdit6.Name = "myTextEdit6";
+            this.myTextEdit6.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit6.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit6.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit6.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit6.Properties.MaxLength = 50;
+            this.myTextEdit6.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit6.TabIndex = 4;
+            // 
+            // myTextEdit7
+            // 
+            this.myTextEdit7.EnterMoveNextControl = true;
+            this.myTextEdit7.Location = new System.Drawing.Point(95, 76);
+            this.myTextEdit7.Name = "myTextEdit7";
+            this.myTextEdit7.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit7.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit7.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit7.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit7.Properties.MaxLength = 50;
+            this.myTextEdit7.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit7.TabIndex = 4;
+            // 
+            // myTextEdit8
+            // 
+            this.myTextEdit8.EnterMoveNextControl = true;
+            this.myTextEdit8.Location = new System.Drawing.Point(95, 45);
+            this.myTextEdit8.MenuManager = this.mainRibbonControl;
+            this.myTextEdit8.Name = "myTextEdit8";
+            this.myTextEdit8.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit8.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit8.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit8.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit8.Properties.MaxLength = 50;
+            this.myTextEdit8.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit8.TabIndex = 4;
+            // 
+            // myCalcEdit6
+            // 
+            this.myCalcEdit6.EnterMoveNextControl = true;
+            this.myCalcEdit6.Location = new System.Drawing.Point(150, 107);
+            this.myCalcEdit6.MenuManager = this.mainRibbonControl;
+            this.myCalcEdit6.Name = "myCalcEdit6";
+            this.myCalcEdit6.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.myCalcEdit6.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.myCalcEdit6.Properties.Appearance.Options.UseFont = true;
+            this.myCalcEdit6.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myCalcEdit6.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myCalcEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.myCalcEdit6.Properties.MaskSettings.Set("mask", "n2");
+            this.myCalcEdit6.Size = new System.Drawing.Size(82, 20);
+            this.myCalcEdit6.TabIndex = 2;
+            // 
+            // myCalcEdit7
+            // 
+            this.myCalcEdit7.EnterMoveNextControl = true;
+            this.myCalcEdit7.Location = new System.Drawing.Point(150, 76);
+            this.myCalcEdit7.MenuManager = this.mainRibbonControl;
+            this.myCalcEdit7.Name = "myCalcEdit7";
+            this.myCalcEdit7.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.myCalcEdit7.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.myCalcEdit7.Properties.Appearance.Options.UseFont = true;
+            this.myCalcEdit7.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myCalcEdit7.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myCalcEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.myCalcEdit7.Properties.MaskSettings.Set("mask", "n2");
+            this.myCalcEdit7.Size = new System.Drawing.Size(82, 20);
+            this.myCalcEdit7.TabIndex = 1;
+            // 
+            // myCalcEdit8
+            // 
+            this.myCalcEdit8.EnterMoveNextControl = true;
+            this.myCalcEdit8.Location = new System.Drawing.Point(150, 45);
+            this.myCalcEdit8.MenuManager = this.mainRibbonControl;
+            this.myCalcEdit8.Name = "myCalcEdit8";
+            this.myCalcEdit8.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.myCalcEdit8.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.myCalcEdit8.Properties.Appearance.Options.UseFont = true;
+            this.myCalcEdit8.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myCalcEdit8.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myCalcEdit8.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.myCalcEdit8.Properties.MaskSettings.Set("mask", "n2");
+            this.myCalcEdit8.Size = new System.Drawing.Size(82, 20);
+            this.myCalcEdit8.TabIndex = 0;
             // 
             // groupControl1
             // 
@@ -266,9 +563,102 @@
             this.groupControl1.Controls.Add(this.myCalcEdit1);
             this.groupControl1.Location = new System.Drawing.Point(10, 17);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(277, 184);
+            this.groupControl1.Size = new System.Drawing.Size(255, 184);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "Gelir Sıralaması";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(59, 143);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 14);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Cari:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(18, 112);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(71, 14);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "EFT-Havale:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(23, 81);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(66, 14);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Kredi Kartı:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(51, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 14);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Nakit:";
+            // 
+            // myTextEdit4
+            // 
+            this.myTextEdit4.EnterMoveNextControl = true;
+            this.myTextEdit4.Location = new System.Drawing.Point(95, 138);
+            this.myTextEdit4.Name = "myTextEdit4";
+            this.myTextEdit4.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit4.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit4.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit4.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit4.Properties.MaxLength = 50;
+            this.myTextEdit4.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit4.TabIndex = 4;
+            // 
+            // myTextEdit3
+            // 
+            this.myTextEdit3.EnterMoveNextControl = true;
+            this.myTextEdit3.Location = new System.Drawing.Point(95, 107);
+            this.myTextEdit3.Name = "myTextEdit3";
+            this.myTextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit3.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit3.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit3.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit3.Properties.MaxLength = 50;
+            this.myTextEdit3.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit3.TabIndex = 4;
+            // 
+            // myTextEdit2
+            // 
+            this.myTextEdit2.EnterMoveNextControl = true;
+            this.myTextEdit2.Location = new System.Drawing.Point(95, 76);
+            this.myTextEdit2.Name = "myTextEdit2";
+            this.myTextEdit2.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit2.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit2.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit2.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit2.Properties.MaxLength = 50;
+            this.myTextEdit2.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit2.TabIndex = 4;
+            // 
+            // myTextEdit1
+            // 
+            this.myTextEdit1.EnterMoveNextControl = true;
+            this.myTextEdit1.Location = new System.Drawing.Point(95, 45);
+            this.myTextEdit1.MenuManager = this.mainRibbonControl;
+            this.myTextEdit1.Name = "myTextEdit1";
+            this.myTextEdit1.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.myTextEdit1.Properties.Appearance.Options.UseBackColor = true;
+            this.myTextEdit1.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
+            this.myTextEdit1.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit1.Properties.MaxLength = 50;
+            this.myTextEdit1.Size = new System.Drawing.Size(49, 20);
+            this.myTextEdit1.TabIndex = 4;
             // 
             // myCalcEdit4
             // 
@@ -284,7 +674,7 @@
             this.myCalcEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.myCalcEdit4.Properties.MaskSettings.Set("mask", "n2");
-            this.myCalcEdit4.Size = new System.Drawing.Size(100, 20);
+            this.myCalcEdit4.Size = new System.Drawing.Size(82, 20);
             this.myCalcEdit4.TabIndex = 3;
             // 
             // myCalcEdit3
@@ -301,7 +691,7 @@
             this.myCalcEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.myCalcEdit3.Properties.MaskSettings.Set("mask", "n2");
-            this.myCalcEdit3.Size = new System.Drawing.Size(100, 20);
+            this.myCalcEdit3.Size = new System.Drawing.Size(82, 20);
             this.myCalcEdit3.TabIndex = 2;
             // 
             // myCalcEdit2
@@ -318,7 +708,7 @@
             this.myCalcEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.myCalcEdit2.Properties.MaskSettings.Set("mask", "n2");
-            this.myCalcEdit2.Size = new System.Drawing.Size(100, 20);
+            this.myCalcEdit2.Size = new System.Drawing.Size(82, 20);
             this.myCalcEdit2.TabIndex = 1;
             // 
             // myCalcEdit1
@@ -335,13 +725,22 @@
             this.myCalcEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.myCalcEdit1.Properties.MaskSettings.Set("mask", "n2");
-            this.myCalcEdit1.Size = new System.Drawing.Size(100, 20);
+            this.myCalcEdit1.Size = new System.Drawing.Size(82, 20);
             this.myCalcEdit1.TabIndex = 0;
+            // 
+            // groupControl6
+            // 
+            this.groupControl6.Controls.Add(this.customGridControl1);
+            this.groupControl6.Location = new System.Drawing.Point(8, 221);
+            this.groupControl6.Name = "groupControl6";
+            this.groupControl6.Size = new System.Drawing.Size(651, 384);
+            this.groupControl6.TabIndex = 6;
+            this.groupControl6.Text = "Satış Listesi:";
             // 
             // groupControl4
             // 
             this.groupControl4.Controls.Add(this.simpleButton2);
-            this.groupControl4.Location = new System.Drawing.Point(359, 16);
+            this.groupControl4.Location = new System.Drawing.Point(341, 16);
             this.groupControl4.Name = "groupControl4";
             this.groupControl4.Size = new System.Drawing.Size(318, 187);
             this.groupControl4.TabIndex = 5;
@@ -364,7 +763,7 @@
             this.groupControl3.Controls.Add(this.dateTimePicker1);
             this.groupControl3.Controls.Add(this.comboBox1);
             this.groupControl3.Controls.Add(this.dateTimePicker2);
-            this.groupControl3.Location = new System.Drawing.Point(24, 19);
+            this.groupControl3.Location = new System.Drawing.Point(8, 19);
             this.groupControl3.Name = "groupControl3";
             this.groupControl3.Size = new System.Drawing.Size(318, 184);
             this.groupControl3.TabIndex = 4;
@@ -410,105 +809,37 @@
             this.dateTimePicker2.TabIndex = 1;
             this.dateTimePicker2.Value = new System.DateTime(2024, 12, 31, 0, 0, 0, 0);
             // 
-            // myTextEdit1
+            // customGridControl1
             // 
-            this.myTextEdit1.EnterMoveNextControl = true;
-            this.myTextEdit1.Location = new System.Drawing.Point(95, 45);
-            this.myTextEdit1.MenuManager = this.mainRibbonControl;
-            this.myTextEdit1.Name = "myTextEdit1";
-            this.myTextEdit1.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.myTextEdit1.Properties.Appearance.Options.UseBackColor = true;
-            this.myTextEdit1.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
-            this.myTextEdit1.Properties.AppearanceFocused.Options.UseBackColor = true;
-            this.myTextEdit1.Properties.MaxLength = 50;
-            this.myTextEdit1.Size = new System.Drawing.Size(49, 20);
-            this.myTextEdit1.TabIndex = 4;
+            this.customGridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.customGridControl1.Location = new System.Drawing.Point(2, 23);
+            this.customGridControl1.MainView = this.gridView1;
+            this.customGridControl1.MenuManager = this.mainRibbonControl;
+            this.customGridControl1.Name = "customGridControl1";
+            this.customGridControl1.Size = new System.Drawing.Size(647, 359);
+            this.customGridControl1.TabIndex = 0;
+            this.customGridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
             // 
-            // myTextEdit2
+            // gridView1
             // 
-            this.myTextEdit2.EnterMoveNextControl = true;
-            this.myTextEdit2.Location = new System.Drawing.Point(95, 76);
-            this.myTextEdit2.Name = "myTextEdit2";
-            this.myTextEdit2.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.myTextEdit2.Properties.Appearance.Options.UseBackColor = true;
-            this.myTextEdit2.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
-            this.myTextEdit2.Properties.AppearanceFocused.Options.UseBackColor = true;
-            this.myTextEdit2.Properties.MaxLength = 50;
-            this.myTextEdit2.Size = new System.Drawing.Size(49, 20);
-            this.myTextEdit2.TabIndex = 4;
-            // 
-            // myTextEdit3
-            // 
-            this.myTextEdit3.EnterMoveNextControl = true;
-            this.myTextEdit3.Location = new System.Drawing.Point(95, 107);
-            this.myTextEdit3.Name = "myTextEdit3";
-            this.myTextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.myTextEdit3.Properties.Appearance.Options.UseBackColor = true;
-            this.myTextEdit3.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
-            this.myTextEdit3.Properties.AppearanceFocused.Options.UseBackColor = true;
-            this.myTextEdit3.Properties.MaxLength = 50;
-            this.myTextEdit3.Size = new System.Drawing.Size(49, 20);
-            this.myTextEdit3.TabIndex = 4;
-            // 
-            // myTextEdit4
-            // 
-            this.myTextEdit4.EnterMoveNextControl = true;
-            this.myTextEdit4.Location = new System.Drawing.Point(95, 138);
-            this.myTextEdit4.Name = "myTextEdit4";
-            this.myTextEdit4.Properties.Appearance.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.myTextEdit4.Properties.Appearance.Options.UseBackColor = true;
-            this.myTextEdit4.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
-            this.myTextEdit4.Properties.AppearanceFocused.Options.UseBackColor = true;
-            this.myTextEdit4.Properties.MaxLength = 50;
-            this.myTextEdit4.Size = new System.Drawing.Size(49, 20);
-            this.myTextEdit4.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(51, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 14);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Nakit:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(23, 81);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 14);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Kredi Kartı:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(18, 112);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 14);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "EFT-Havale:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(59, 143);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 14);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Cari:";
+            this.gridView1.Appearance.HeaderPanel.BackColor = System.Drawing.Color.SteelBlue;
+            this.gridView1.Appearance.HeaderPanel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.gridView1.Appearance.HeaderPanel.ForeColor = System.Drawing.Color.White;
+            this.gridView1.Appearance.HeaderPanel.Options.UseBackColor = true;
+            this.gridView1.Appearance.HeaderPanel.Options.UseFont = true;
+            this.gridView1.Appearance.HeaderPanel.Options.UseForeColor = true;
+            this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.AliceBlue;
+            this.gridView1.Appearance.Row.Options.UseBackColor = true;
+            this.gridView1.GridControl = this.customGridControl1;
+            this.gridView1.Name = "gridView1";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.ClientSize = new System.Drawing.Size(1062, 777);
+            this.ClientSize = new System.Drawing.Size(978, 777);
             this.Controls.Add(this.splitContainerControl1);
             this.Controls.Add(this.mainRibbonControl);
             this.Name = "MainForm";
@@ -521,21 +852,43 @@
             this.splitContainerControl1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
+            this.groupControl5.ResumeLayout(false);
+            this.groupControl5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit9.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit10.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit9.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit10.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
+            this.groupControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit7.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit8.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit7.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit8.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.myCalcEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
+            this.groupControl6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
             this.groupControl4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customGridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -576,5 +929,26 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private CPManagementApp.UserControls.Controls.MyTextEdit myTextEdit6;
+        private CPManagementApp.UserControls.Controls.MyTextEdit myTextEdit7;
+        private CPManagementApp.UserControls.Controls.MyTextEdit myTextEdit8;
+        private CPManagementApp.UserControls.Controls.MyCalcEdit myCalcEdit6;
+        private CPManagementApp.UserControls.Controls.MyCalcEdit myCalcEdit7;
+        private CPManagementApp.UserControls.Controls.MyCalcEdit myCalcEdit8;
+        private DevExpress.XtraEditors.GroupControl groupControl5;
+        private System.Windows.Forms.Label label10;
+        private CPManagementApp.UserControls.Controls.MyTextEdit myTextEdit5;
+        private CPManagementApp.UserControls.Controls.MyTextEdit myTextEdit9;
+        private CPManagementApp.UserControls.Controls.MyTextEdit myTextEdit10;
+        private CPManagementApp.UserControls.Controls.MyCalcEdit myCalcEdit5;
+        private CPManagementApp.UserControls.Controls.MyCalcEdit myCalcEdit9;
+        private CPManagementApp.UserControls.Controls.MyCalcEdit myCalcEdit10;
+        private DevExpress.XtraEditors.GroupControl groupControl6;
+        private CustomGridControl customGridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
     }
 }

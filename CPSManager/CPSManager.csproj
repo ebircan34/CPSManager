@@ -73,6 +73,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\CustomGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\MyCalcEdit.cs">
       <SubType>Component</SubType>
     </Compile>
