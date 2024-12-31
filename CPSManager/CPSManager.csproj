@@ -73,6 +73,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\MyEmailTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MyMemoEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MyTelefonNo.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\MyTextEditOnlyNumaric.cs">
       <SubType>Component</SubType>
     </Compile>
